@@ -9,12 +9,7 @@ This project is intended as a practical exercise to learn and practice:
 - 🧪 virtual environments (`venv`)  
 - 🌱 first steps with Git and GitHub  
 
----
 
-## 📂 Repository Contents
-
-- 🐍 `import_qr_code.py` – main script for QR code generation  
-- 📄 `README.md` – project documentation  
 
 ---
 

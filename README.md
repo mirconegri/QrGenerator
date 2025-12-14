@@ -15,7 +15,6 @@ This project is intended as a practical exercise to learn and practice:
 
 - 🐍 `import_qr_code.py` – main script for QR code generation  
 - 📄 `README.md` – project documentation  
-- 🚫 `.gitignore` – excludes non-versioned files and folders  
 
 ---
 

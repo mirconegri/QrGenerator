@@ -26,10 +26,11 @@ This project is intended as a practical exercise to learn and practice:
 
 ## 🛠️ Installation (recommended: virtual environment)
 
-```bash
+```
 python3 -m venv venv
 source venv/bin/activate
 pip install qrcode[pil]
+```
 
 ---
 

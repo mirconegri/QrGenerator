@@ -12,7 +12,6 @@ This project is intended as a practical exercise to learn and practice:
 - 🧪 virtual environments (`venv`)  
 - 🌱 first steps with Git and GitHub  
 
-
 ---
 
 ## ⚙️ Requirements

@@ -35,7 +35,9 @@ pip install qrcode[pil]
 ## 🧾 Example Usage
 
 $ python `import_qr_code.py`
+
 Enter the text or URL to generate the QR code: `https://www.github.com`
+
 QR code successfully generated and saved as `'qrcode.png'`.
 
 This will create a QR code image file named qrcode.png in the current directory, which can be scanned by any QR code reader.

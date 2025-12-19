@@ -1,6 +1,5 @@
 # 📦 QR Generator
 
-
 [![PDF Merge](https://img.shields.io/badge/Language-python-blue?style=for-the-badge)](https://www.python.org/) [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE) 
 
 Simple 5 line Python script that generates a **QR code** from a string or URL provided by the user via terminal input.

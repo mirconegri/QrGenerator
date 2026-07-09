@@ -1,56 +1,74 @@
-# 📦 QR Generator
+# QR Generator
 
-[![PDF Merge](https://img.shields.io/badge/Language-python-blue?style=for-the-badge)](https://www.python.org/) [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE) 
+[![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 
-Simple 5 line Python script that generates a **QR code** from a string or URL provided by the user via terminal input.
+A minimal Python script (~5 lines of core logic) that generates a QR code image from any text or URL provided interactively via the terminal.
 
-This project is intended as a practical exercise to learn and practice:
+This project was built as a practical exercise to learn the basics of external module usage, terminal I/O, virtual environments, and Git/GitHub workflows.
 
-- 📚 usage of external Python modules  
-- ⌨️ basic input/output handling  
-- 🧪 virtual environments (`venv`)  
-- 🌱 first steps with Git and GitHub  
+## Features
 
----
+- Generates a QR code from any string or URL entered via terminal input
+- Saves the result as a PNG image (`qrcode.png`) in the current working directory
+- Zero configuration — no API keys, accounts, or external services required
 
-## ⚙️ Requirements
+## Tech Stack
 
-- 🐍 Python **3.10+**  
-- 📦 Python module `qrcode`  
-- 🖼️ `Pillow` module (installed automatically)  
+- **Language:** Python 3.10+
+- **Library:** [`qrcode`](https://pypi.org/project/qrcode/) (with the `Pillow` extra for image rendering)
 
----
+## Getting Started
 
-## 🛠️ Installation (recommended: virtual environment)
+### Prerequisites
 
-```
+- Python 3.10 or later
+- `pip`
+
+### Installation
+
+It's recommended to install the dependency inside a virtual environment:
+
+```bash
+git clone https://github.com/mirconegri/QrGenerator.git
+cd QrGenerator
 python3 -m venv venv
-source venv/bin/activate
+source venv/bin/activate   # On Windows: venv\Scripts\activate
 pip install qrcode[pil]
 ```
 
-## 🧾 Example Usage
+## Usage
 
-- $ python `import_qr_code.py`
-- Enter the text or URL to generate the QR code: `https://www.github.com`
-- QR code successfully generated and saved as `'qrcode.png'`.
-- This will create a QR code image file named qrcode.png in the current directory, which can be scanned by any QR code reader.
+Run the script and follow the prompt:
 
----
+```bash
+python import_qr_code.py
+```
 
-### 👤 Author & Connect
+```
+Enter the text or URL to generate the QR code: https://www.github.com
+QR code successfully generated and saved as 'qrcode.png'.
+```
 
-**Mirco Negri** — *Computer Science Student @ UniTrento*
+The generated `qrcode.png` file will appear in the same directory and can be scanned by any standard QR code reader.
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-00599C?style=for-the-badge&logo=globe&logoColor=white)](https://mirconegri.github.io/Portfolio/)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mirconegri)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mirco-negri-263810225)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mirconegri06@gmail.com)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/mirco_negri_?igsh=MWtlbXY0a3R4NTJmNA==)
-[![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/share/172rhaPCUK/)
+## Configuration / Environment
 
-### 📜 License
+This script does not require any environment variables or configuration files. All input is provided interactively at runtime.
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-<br>
+## Contributing
+
+Contributions are welcome! If you'd like to improve this project:
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/your-feature`)
+3. Commit your changes
+4. Open a Pull Request describing what you changed and why
+
+For bugs or suggestions, feel free to open an [Issue](https://github.com/mirconegri/QrGenerator/issues).
+
+## License
+
+This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
+
 © 2026 Mirco Negri

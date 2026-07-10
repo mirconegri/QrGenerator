@@ -7,6 +7,17 @@ A minimal Python script (~5 lines of core logic) that generates a QR code image 
 
 This project was built as a practical exercise to learn the basics of external module usage, terminal I/O, virtual environments, and Git/GitHub workflows.
 
+## Table of Contents
+
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Project Structure](#project-structure)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Configuration and Environment](#configuration-and-environment)
+- [Contributing](#contributing)
+- [License](#license)
+
 ## Features
 
 - Generates a QR code from any string or URL entered via terminal input
@@ -17,6 +28,15 @@ This project was built as a practical exercise to learn the basics of external m
 
 - **Language:** Python 3.10+
 - **Library:** [`qrcode`](https://pypi.org/project/qrcode/) (with the `Pillow` extra for image rendering)
+
+## Project Structure
+
+```
+QrGenerator/
+├── import_qr_code.py   # Main script — prompts for input and generates the QR code
+├── README.md
+└── LICENSE
+```
 
 ## Getting Started
 
@@ -52,7 +72,7 @@ QR code successfully generated and saved as 'qrcode.png'.
 
 The generated `qrcode.png` file will appear in the same directory and can be scanned by any standard QR code reader.
 
-## Configuration / Environment
+## Configuration and Environment
 
 This script does not require any environment variables or configuration files. All input is provided interactively at runtime.
 
@@ -67,8 +87,19 @@ Contributions are welcome! If you'd like to improve this project:
 
 For bugs or suggestions, feel free to open an [Issue](https://github.com/mirconegri/QrGenerator/issues).
 
+### 👤 Author & Connect
+
+**Mirco Negri** — *Computer Science Student @ UniTrento*
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-00599C?style=for-the-badge&logo=globe&logoColor=white)](https://mirconegri.github.io/Portfolio/)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mirconegri)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mirco-negri-263810225)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mirconegri06@gmail.com)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/mirco_negri_?igsh=MWtlbXY0a3R4NTJmNA==)
+[![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/share/172rhaPCUK/)
+
 ## License
 
 This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
-
+<br>
 © 2026 Mirco Negri

@@ -3,6 +3,8 @@
 [![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 
+> 🌐 **<a href="https://qrgenerator.mirconegri.com" target="_blank">Visit the project website</a>**
+
 A minimal Python CLI utility that generates a QR code image from any text or URL — no external services, no API keys, no configuration required.
 
 Built to address a recurring practical need: sharing links at events and on printed materials without depending on third-party QR generators that may impose rate limits, require sign-ups, or transmit input data to external servers.
